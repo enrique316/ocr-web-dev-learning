@@ -81,3 +81,57 @@ if(bool(api_key == "12345")):
     print("api key accepted")
 else:
     print("api key not accepted") 
+
+
+ #abs() built in function 
+    expected_amount = 5000
+    actual_amount = -7000
+    print(abs(expected_amount - actual_amount))
+
+
+
+
+#abs() confidence deviation in ocr environment 
+invoice_amount = 1000
+extracted_amount_from_invoice = 1200
+print(abs(invoice_amount - extracted_amount_from_invoice))   
+
+difference = abs(invoice_amount - extracted_amount_from_invoice)
+if difference >= 200:
+    print("amount deviation is acceptable")
+else:    
+    print("amount deviation is not acceptable") 
+
+
+#abs() distance or change tracking in logistics
+initial_distance = 100
+final_distance = 150 
+difference = abs(final_distance - initial_distance)
+if difference >= 100:
+    print("distance change is significant")
+else:
+    print("distance change is not significant")
+
+
+total_weight_invoice = 500
+extracted_weight_invoice = 550 
+difference = abs(extracted_weight_invoice - total_weight_invoice)
+if difference <= 50:
+    print("weight deviation is acceptable")
+else:
+    print("weight deviation is not acceptable")
+
+#input() built in function
+input("Enter your name: ")
+
+
+#help() built in function
+help(input)
+
+#input() built in function with validation
+
+user_input_value = input("enter an invoice page number: ")
+if user_input_value.isdigit():
+    print(f"Valid page number entered: {user_input_value}")
+else:
+    print("Invalid page number. Please enter a numeric value.")
