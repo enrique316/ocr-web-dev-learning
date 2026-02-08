@@ -16,3 +16,14 @@ items_list = items_name.split(',')
 
 #complex number with input()
 assigned_value = complex(input("enter a complex number: "))
+
+
+#declaring multiple variables with in one line with 
+first_name, my_age, gender, country = "Shankar", '37', "male", "India"
+
+print(first_name)
+print(my_age)
+print(gender)
+print(country)
+
+
