@@ -14,3 +14,22 @@ print(lets_split_amounts)
 
 insert_amounts = input() 
 print(list(insert_amounts))
+
+#a tuple into list 
+
+invoice_amounts ={200, 300, 400}
+convert_invoice_amounts = list(invoice_amounts)
+print(convert_invoice_amounts)
+
+
+#empty list 
+invoice_values = []
+print(invoice_values)
+
+#type checking in the list
+
+ocr_values = (20.1)
+print(type(ocr_values))
+
+
+
