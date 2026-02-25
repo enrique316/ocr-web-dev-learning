@@ -134,11 +134,11 @@ You must use:
 sep= """
 
 name = "invoice"
-number = 2025
-
-
-
-
+number = 2026
+status = "paid"
+print( name, number, status, sep=":")
+print(name, number, status, sep="/")
+print( name, number, status, sep="-")
 
 
 
@@ -159,7 +159,8 @@ Experiment using end=" "
 Experiment using end="-"
 
 """
-
+print("hello", end="")
+print("world", end="-")
 
 """CHAPTER 6: Printing Quotes Inside Text
 
@@ -174,6 +175,10 @@ Print: It's completed
 
 Try both single and double quotes properly """
 
+print("ravi said \"invoice paid\"")
+print("its completed")
+print('it\'s completed') 
+
 """CHAPTER 7: Simple Formatting Style
 
 Objective
@@ -187,6 +192,13 @@ Amount: 5000
 Status: Paid
 
 Make it look clean and aligned """
+name = "ravi"
+amount = 5000
+status = "paid" 
+print(name, amount, status, sep="\n")
+
+
+
 
 """CHAPTER 8: OCR Style Raw Output Simulation
 
@@ -206,6 +218,9 @@ Print:
 
 Goal
 Understand how raw data appears before cleaning. """
+print("7800")
+print("invoice no:4567")
+print("status:paid")
 
 """CHAPTER 9: Print Debugging Practice
 
@@ -226,6 +241,12 @@ Print: "Final amount:", amount + tax
 
 Goal
 See how print helps track logic. """
+
+amount = 4500
+print("amount before tax", amount)
+tax = amount * 0.18 
+print("tax calculated:", tax)
+print("final amount:", amount + tax)
 
 """CHAPTER 10: Mini Structured Report
 
