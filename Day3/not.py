@@ -36,19 +36,42 @@ else:
 Practice 1: Login Check
 logged_in = False
 Print if the user is not logged in."""
+logged_in = False
+if not logged_in:
+    print("not logged in")
+else: 
+    print("logged in")
+
 
 """Practice 2: Document Validation
 document_text = ""
 Check if the document has no text."""
-
+document_text = ""
+if not document_text:
+    print("has no text")
+else:
+    print("has text")
 """Practice 3: Payment Status
 paid = True
 Print if the invoice is not paid."""
-
+paid = True
+if not paid:
+    print("not paid")
+else: 
+    print("already paid")
 """Practice 4: OCR Field Check
 invoice_number = ""
 Check if invoice number is missing."""
-
+invoice_number = ""
+if not invoice_number:
+    print("invoice number missing")
+else:
+    print("invoice no present")
 """Practice 5: Inventory System
 stock = 0
 Check if the item is not available in stock."""
+stock = 0
+if not stock:
+    print("stock has no items")
+else:
+    print("stock has itmes")
