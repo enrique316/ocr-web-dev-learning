@@ -1,4 +1,4 @@
-#= assignment operator in python# 
+# = assignment operator in python# 
 
 integer = 5
 string = "5"
