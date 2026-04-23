@@ -15,10 +15,24 @@ print(a)
 #with list you can change the value or value is mutable# 
 x= [1,2,3]
 x[0]=20
-print(x)
-👉#with tuple you can't change the value or the value with unmutable #  
+#print(x)#with tuple you can't change the value or the value with unmutable #  
 """a = (1,2,3)
 a[0]=20"""
-👉# print(a) # this will throw error #  
+# print(a) # this will throw error #  
 
-#
+invoice_data = ("name", 5000, 23.6 , True, False)
+print(invoice_data)
+
+
+#9. Difference from list (simple rule)
+"""
+👉 Use list when:
+
+data changes
+you add/remove items
+
+👉 Use tuple when:
+
+data is fixed
+structure is constant"""
+
