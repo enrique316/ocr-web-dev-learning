@@ -37,6 +37,6 @@ print(path)
 
 
 # OCR example for \n escape character # 
-
 invoice = "IN\n200"
 print(invoice)
+
