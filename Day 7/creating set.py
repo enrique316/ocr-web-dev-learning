@@ -17,6 +17,15 @@ Using set() function
 name = {"Diti", "gauri"}
 print(name)
 
-# using set([]) method # 
+# using sets with various data types, "", [], () # 
 data = set([1,2,3,4])
 print(type(data))
+
+# or you use tuple inside # 
+cd = set((1,2,3,4))
+print(type(cd)) 
+
+x = set("name")
+print(type(x))
+print(x)
+
