@@ -16,4 +16,16 @@ xy = {"sdasdas", 4234039, 13432423422.3242423}
 xy.update({232323})
 print(xy)
 
-# Another method # 
+"""ab = {4,55,'adsads', True}
+ab.update(False)
+print(ab) """ # boolean isnt acceptable # 
+
+# another example # 
+
+abc = {2,3}
+absz = {3,4}
+abc.update(absz)
+print(abc)
+
+invoice_amount = {200, 500}
+updated_amount = {700, 800}
