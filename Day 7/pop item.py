@@ -21,3 +21,7 @@ a.pop
 print(a)
 
 # ocr example # 
+invoice_data = {"name", "invoice_Id", "Amount"}
+removed = invoice_data.pop()
+print("removed:", removed)
+print("remaining:", invoice_data)
