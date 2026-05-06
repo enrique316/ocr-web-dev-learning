@@ -26,3 +26,6 @@ print(ab-bc)
 x = {2,3,4,5}
 y = {2,36}
 print(a.difference(y))
+
+
+
