@@ -35,3 +35,12 @@ print(b)
 
 # 
 
+x = {
+    'date': "17May2030"
+}
+
+
+# Similar solution with .copy method # 
+
+y = x.copy()
+print(y)
