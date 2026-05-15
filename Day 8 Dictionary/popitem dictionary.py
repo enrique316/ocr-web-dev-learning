@@ -29,3 +29,45 @@ a = {
 print(a.popitem())
 
 # Dictionary after removal # 
+
+x = {
+     'name': 'Diti',
+    'address': "hans nagar"
+
+}
+
+y = x.popitem()
+print(x)
+print(type(y))
+
+
+ab = {
+     'name': 'Diti',
+    'address': "hans nagar",
+    'phone no': True
+}
+
+print(ab.popitem())
+print(ab.popitem())
+print(ab)
+
+
+# Empty dictionary # 
+
+ax = {
+
+}
+
+print(ax.popitem)
+
+# Access returned tuple values # 
+
+gh = {
+     'name': 'Diti',
+    'address': "hans nagar",
+    'phone no': True
+}
+
+j, k = gh.popitem()
+print(j)
+print(k)
