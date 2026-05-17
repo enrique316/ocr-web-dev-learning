@@ -1,0 +1,82 @@
+<!---
+1. Why <tr> is used (Purpose first)
+
+👉 <tr> is used to:
+👉 “Create a row inside a table”
+👉 Every horizontal line in a table is a row.
+3. Is it used in modern web development?
+
+👉 YES, absolutely essential for tables.
+
+👉 Every HTML table depends on:
+
+<tr>
+
+    6. Drawbacks
+
+👉 Cannot work meaningfully outside <table>
+
+👉 Needs cells (<td> or <th>) inside it
+
+7. Alternatives
+
+❌ No real semantic replacement for table rows.
+
+👉 If using modern UI layouts:
+
+CSS Grid
+Flexbox
+
+But for actual table rows:
+
+✅ <tr> is correct and standard.
+
+8. Best practices
+
+👉 Always place <tr> inside:
+
+<table>
+<thead>
+<tbody>
+<tfoot>
+
+👉 Keep same number of cells in rows when possible.
+
+ ├── Row 1
+ │    ├── Cell 1 → Name
+ │    └── Cell 2 → Age
+ │
+ └── Row 2
+      ├── Cell 1 → Rahul
+      └── Cell 2 → 25
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Description tag goes here">
+    <title> Table rows</title>
+</head>
+<body>
+     </table>
+<p> Another table starts here </p>
+    <table>
+        <tr>
+            <td> Name</td>
+            <td> Classes </td>
+            <td> Sections </td>
+        </tr>
+        <tr>
+            <td> Dit</td>
+            <td> 6th</td>
+            <td> A3</td>
+            <tr>   
+                <td> Gauri</td>
+            </tr>
+          <tr><td> Sara </td></tr>
+            <tr> <td> Munnu </td></tr>
+           
+        </tr>
+    </table>
+</body>
+
+</html>
