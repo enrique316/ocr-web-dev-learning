@@ -40,7 +40,28 @@ Operator	Meaning
 <=	Less than equal 
 """
 
-b = 5 
+"""b = 5 
 c = 5 
 d = b == c 
-print(d)
+print(d)"""
+
+amount1 = 50000
+amount2 = 50000.23434
+if amount1 > amount2: 
+ print("true")
+
+if amount1 < amount2:
+ print("false")
+
+x = 23453
+y = 234334343.343
+if x != y:
+ print("true")
+else:
+ print("false")
+
+user_name = "Jack1234"
+if user_name == "Jack1234":
+ print("user authenticated")
+else:
+ print("user not valid")
