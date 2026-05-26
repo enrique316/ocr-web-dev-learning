@@ -19,4 +19,15 @@ else:
     print("amount not approved")
 
 
-# a
+# another example # 
+
+confidence_level = 90
+captured_amount = 50000
+invoice_no = "inv1234"
+if confidence_level > 80 and confidence_level <90  and invoice_no !="":
+ print("ture")
+else:
+   print("false")
+
+
+# example # 
