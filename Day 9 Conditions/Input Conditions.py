@@ -43,7 +43,7 @@ Sample Run
 User enters:
 20
 """
-name = str(input("Customer Name:"))
+"""name = str(input("Customer Name:"))
 age = float(input("Age:"))
 country = str.lower(input("Country:"))
 invoice_ID = str(input("Invoice ID:"))
@@ -51,4 +51,22 @@ amount = float(input("amount:"))
 if country == "india" and amount > 5000: 
     print("invoice accepted")
 else:
-    print("invoice rejected")
+    print("invoice rejected")"""
+
+# example # 
+
+""""age1 = float(input('enter your age:'))
+city = str(input("enter your state:")).strip().casefold()
+if age1 > 18 and city == "delhi": 
+    print("verified")
+else:
+    print("not verified") """
+
+# another example with membership condition # 
+
+extracted_date = input("enter date:").casefold()
+if "jan" in extracted_date: 
+    print("value found")
+else:
+    print("value not found")
+
