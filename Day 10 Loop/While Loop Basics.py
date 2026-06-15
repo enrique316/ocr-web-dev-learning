@@ -40,7 +40,12 @@ while name < 4:
     print(name)
     name += 1"""
 
-data = 2
+"""data = 2
 while data < 5:
     print(data)
-    data += 1
+    data += 1"""
+
+name = 0
+while name <10:
+    print(name)
+    name += 1
