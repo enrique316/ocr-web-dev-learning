@@ -35,3 +35,22 @@ Output
 1
 2
 """
+#Example #
+
+""" for a in range(5):
+    if a == 3:
+        break
+    print(a) """ 
+"""
+for x in range (7):
+    if x == 6:
+        break
+    print(x) """
+
+# Break in a While Loop #
+count = 1
+while True:
+    print(count)
+    if count == 3:
+        break
+    count += 1
