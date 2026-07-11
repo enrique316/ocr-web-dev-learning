@@ -52,7 +52,7 @@ for z in range(4):
     continue
  print(z) """ 
 
-extracted_data = ["name", "address", "amount", "date"]
+"""extracted_data = ["name", "address", "amount", "date"]
 
 for name in extracted_data:
     if name == "name":
@@ -64,4 +64,18 @@ numbers = [1,2,3,-6,-7]
 for numbers in numbers:
     if numbers <0:
         continue
-    print(numbers)
+    print(numbers) """
+
+#exmaple# 
+name = ("ram", "shyam", "sit", "gita")
+for ram in name:
+    if name == "name":
+        continue
+    print(name)
+   
+
+print_numbers = {1,2,3,4,5}
+for print_numbers in print_numbers:
+    if print_numbers <3:
+        continue
+    print(print_numbers)
