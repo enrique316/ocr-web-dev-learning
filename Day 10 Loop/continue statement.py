@@ -14,3 +14,10 @@ for x in range(10):
     if x ==10:
         continue
     print(x)
+
+# another example with string #
+name = ["diti","gauri", "jaggu", "dhunni"]
+for data in name:
+    if data == "gauri":
+        continue
+    print(data)
