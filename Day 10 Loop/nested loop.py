@@ -13,6 +13,7 @@ for x in range(3):
         print(x,y) """ 
 
 # example #
+"""
 for data in range(5):
     for free in range(3):
         print(data, free) 
@@ -21,14 +22,21 @@ name = ["ram","shyam"]
 sections = ["A1", "B1", "C1"]
 for names in name:
     for classes in sections:
-        print(names, classes)
+        print(names, classes) """ 
 
 # OCR examples #
-
+"""
 invoice = [
     ["inv123", "computer", 200]
     ['inv231', 'CPU', 700]
 ]
 for row in invoice:
     for filed in row:
-        print(filed)
+        print(filed) """ 
+# Another similar example # 
+name = ["diti", "gauri", "dhunni", "raju"]
+subjects = [ "hindi", "Englihs", "math", "Science"]
+
+for names in name:
+    for subject in subjects:
+        print(names, "-", subject)
