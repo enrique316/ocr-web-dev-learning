@@ -10,14 +10,20 @@ def add(a,b):
     return a+b
 result = add(2,3)
 print(result) """ 
-
+"""
 # Another example # 
 def minus(a,b):
     return a-b
 result = minus(5,7)
-print(result)
-
+print(result) """ 
+"""
 def multiply( x, y,z,d):
     return x*y*z*d
 get_data = multiply(2,2,4,16)
-print(get_data)
+print(get_data) """ 
+
+def square(numbers):
+    return numbers * numbers
+x = square(5)
+print(x)
+#Another Example Without a Variable #
