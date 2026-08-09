@@ -21,9 +21,24 @@ def multiply( x, y,z,d):
     return x*y*z*d
 get_data = multiply(2,2,4,16)
 print(get_data) """ 
-
+"""
 def square(numbers):
     return numbers * numbers
 x = square(5)
-print(x)
+print(x) """ 
 #Another Example Without a Variable #
+"""
+def add(a,b):
+    return(a+b)
+result = add(5,10)
+finale_result = result*2
+print(finale_result) """ 
+
+
+# OCR example#
+def extract_amount():
+    return 4500
+amount = extract_amount()
+gst = amount * 0.12 
+print("Amount:", amount)
+print("GST:", gst)
