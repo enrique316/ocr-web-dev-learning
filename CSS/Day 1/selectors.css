@@ -1,0 +1,20 @@
+/* nothing here */
+
+h1 {
+
+    font-size: 20px;
+}
+
+h2 {
+
+    font-size: 40px;
+}
+
+h3 {
+    font-family: inherit; font-size: 10px;
+}
+
+p {
+    background-color: aqua; text-align: right; font-weight: bold;
+}
+
