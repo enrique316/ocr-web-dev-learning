@@ -5,3 +5,5 @@
 .header-fonts-global {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;
 }
+
+/* class attribute can be used to target multiple elements */ 

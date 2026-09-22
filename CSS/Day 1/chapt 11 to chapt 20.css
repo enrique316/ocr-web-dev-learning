@@ -1,0 +1,35 @@
+#what-is-IDP, #Intro-to-idp, #paragraph {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    border: 1px solid yellow;
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+}
+
+#hi {
+    border: 2px solid green;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-right: 40px;
+    text-align: center;
+    padding-top: 10;
+    display: block;
+
+
+}
+
+#features {
+    border: 2px solid greenyellow;
+    padding: 10px 10px 10px 20px;
+    text-align: justify;
+    margin: 100px 75px 75px 50px;
+    display: inline-flexbox;
+    
+}
+
+#display {
+    display: grid;
+}

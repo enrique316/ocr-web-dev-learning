@@ -1,0 +1,14 @@
+#what-is-ocr {
+    background-color: green; font-size: 30px; font-weight: 900;
+}
+
+#OCR-introduction {
+
+    background-color: yellow; font-size: 20px; text-align: justify;
+}
+
+#ocr-introduction-default {
+    font-size: 10px;
+}
+
+/* id is intend to target one elements */ 
