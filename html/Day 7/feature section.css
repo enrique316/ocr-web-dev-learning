@@ -1,0 +1,14 @@
+#section1 {
+    border: solid 1px green;
+text-align: left;
+}
+
+#section2 {
+ border: solid 1px green;
+text-align: left;   
+}
+
+#section3 {
+margin: 20px;
+align-items: center;
+}
