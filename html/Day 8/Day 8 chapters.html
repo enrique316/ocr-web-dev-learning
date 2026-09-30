@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Description goes here">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title> Page title goes here</title>
+    </head>
+    <body>
+        <form id="form">
+            <fieldset> 
+                <legend> Fill the form</legend>
+                <br>
+            <label> Name</label>
+            <input type="text" required>
+            <br><br>
+            <label> Last Name</label>
+            <input type="text">
+            <br><br>
+            <label> Enter Email </label>
+            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            <br><br>
+            <label> Mobile Number</label> 
+            <input type="tel" pattern="[0-9]{10}" required>
+            <br><br>
+            </fieldset>
+            <fieldset>
+               <legend> Select File type</legend>
+                <br> <br>
+                <label> PDF
+                <input type="checkbox" name="PDF" value="PDF">
+                </label>
+                <label> Excel
+                <input type="checkbox" name="Excel" value="Excel">
+                </label>
+                <label> Json
+                <input type="checkbox" name="Json" value="Json">
+                </label>
+                <br><br>
+            <button type="submit"> Submit</button>
+            </fieldset>
+        </form>
+<!------>
+
+        
+    </body>
+</html>

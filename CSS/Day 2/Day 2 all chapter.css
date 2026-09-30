@@ -1,0 +1,14 @@
+#all {
+    border: 2px dotted violet;
+    margin: 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+#all {
+margin: 50px;
+border-top: 5px dotted green;
+border-bottom: 5px dashed yellow;
+border-left: 5px double magenta;
+border-right: 5px ridge goldenrod;
+padding: 50px;
+}
