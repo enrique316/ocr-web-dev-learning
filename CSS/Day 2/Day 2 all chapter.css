@@ -2,6 +2,7 @@
     border: 2px dotted violet;
     margin: 20px;
     padding: 20px 30px 20px 30px;
+    box-sizing: content-box;
 }
 
 #all {
@@ -12,3 +13,4 @@ border-left: 5px double magenta;
 border-right: 5px ridge goldenrod;
 padding: 50px;
 }
+
