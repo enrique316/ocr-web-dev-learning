@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Description goes here">
+        <meta name="viewport" content="width=device-width ,  initial-scale=1.0">
+        <title> Auto Complete</title>
+    </head>
+    <body>
+        <div id="form">
+            <form id="contact-us-page">
+                <label for="Name"> First Name</label>
+                <input type="text" id="Name" name="First" autocomplete="First Name" max="50" min="2"  pattern="[A-Za-z]" required >
+                <br> <br>  
+                <label for="Email"> Email ID</label>
+                <input type="email" id="Email" name="email-id" autocomplete="off" max="50" min="2"  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required >
+                <br>
+                <button type="submit" id="form-data"> Submit Details</button>
+            </form>
+        </div>
+    </body>
+</html>
