@@ -1,0 +1,12 @@
+.box {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 100px;
+    border: 2px dashed yellow;
+    padding: 10px;
+    background-color: lightblue;
+    overflow: auto;
+
+
+}
