@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.step-1 {
+    display: inline;
+    background-color: aqua;
+    color: blueviolet;
+
+}
+
+a {
+    display: inline;
+
+}

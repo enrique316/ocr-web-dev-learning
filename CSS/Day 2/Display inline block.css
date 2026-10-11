@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+.step-1 {
+    text-align: center;
+    background-color: aquamarine;
+    display: inline-block;
+    border: 1px dashed green;
+    margin: 20px;
+    padding: 40px;
+    
+}
+
+.step-2 {
+    text-align: center;
+    display: inline-block;
+    background-color:yellow;
+    border: 1px dashed green
+}
+
+.step-3 {
+    text-align: center;
+    background-color:blueviolet;
+    display: inline-block;
+    border: 1px dashed green
+
+}
